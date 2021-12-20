@@ -26,7 +26,7 @@ async function animatedLineChart() {
   const height = 400;
   const margins = {top: 40, bottom: 40, left: 40, right: 40};
 
-  const colors = ['#e41a1c','#377eb8','#4daf4a','#984ea3','#ff7f00','#999999','#a65628'];
+  const colors = ['#e41a1c','#377eb8','#4daf4a','#984ea3','#ff7f00','#999999','#a65628', "#f781bf"];
   let keys = ["mbh", "75s", "axn", "hpb", "hdy", "lib", "fic", "jhn"];
 
   let selected = []
@@ -36,10 +36,8 @@ async function animatedLineChart() {
     }
   }
 
-
   d3.select("svg").remove();
   d3.select("svg").remove();
-
 
   const svg = d3.select(".lines").append("svg")
     .style("height", `${height}px`)
