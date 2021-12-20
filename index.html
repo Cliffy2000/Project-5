@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="UTF-8">
+      <title>Project 05</title>
+      <script src="https://d3js.org/d3.v7.min.js"></script>
+      <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/time-and-space" type="text/css"/> 
+      <link rel="stylesheet" href="style/main.css" type="text/css"/>
+  </head>
+  <body>
+    <main>
+      <h2 style="text-align: center;">Project 5</h2>
+
+      <div style="display: flex; justify-content: center;">
+        <div class="lines" style="width: 850px; height: 430px; overflow-x: scroll;"></div>
+        <div class="legend" style="width: 120px; height: 430px;""></div>
+      </div>
+
+      <form style="display: flex; justify-content: center;">
+        <input class="building" type="checkbox" id="mbh" onchange="animatedLineChart()" checked>mbh</div>
+        <input class="building" type="checkbox" id="75s" onchange="animatedLineChart()" checked>75s</div>
+        <input class="building" type="checkbox" id="axn" onchange="animatedLineChart()" checked>axn</div>
+        <input class="building" type="checkbox" id="hpb" onchange="animatedLineChart()" checked>hpb</div>
+        <input class="building" type="checkbox" id="hdy" onchange="animatedLineChart()" checked>hdy</div>
+        <input class="building" type="checkbox" id="lib" onchange="animatedLineChart()" checked>lib</div>
+        <input class="building" type="checkbox" id="fic" onchange="animatedLineChart()" checked>fic</div>
+        <input class="building" type="checkbox" id="jhn" onchange="animatedLineChart()" checked>jhn</div>
+      </form>
+
+      <div style="display: flex; justify-content: center;">
+        <div class="arcs1" style="width: 450px; height: 450; display: inline-block;"></div>
+      </div>
+    </main>
+  </body>
+
+  <script src="js/lineChart.js"></script>
+
+</html>

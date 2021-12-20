@@ -1,0 +1,9 @@
+html {
+  align-items: center;
+  justify-content: center;
+}
+
+.building {
+  margin-left: 10px;
+  margin-right: 2px;
+}
